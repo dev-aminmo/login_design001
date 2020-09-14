@@ -17,6 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        resizeToAvoidBottomPadding: false,
         body: LoginScreen(),
       ),
     );
